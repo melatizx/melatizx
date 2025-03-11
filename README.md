@@ -10,5 +10,5 @@ Espero através daqui poder satisfazer a sua procura a um programador para reali
 
 <b>_________________________________________________________________________________________________________________________________________________</b>
 
-📍<b>*Sorocaba-SP*</b>
+📍<b>*Sorocaba-SP*</b><br>
 📞<b>*Contato via: leonardomelati1@gmail.com*</b>
