@@ -5,4 +5,10 @@ Espero através daqui poder satisfazer a sua procura a um programador para reali
 
 <b>_________________________________________________________________________________________________________________________________________________</b>
 
-📖<b>*Cursando Desenvolvimento de Sistemas (2º ano de curso)*</b>
+📖<b>*Cursando Desenvolvimento de Sistemas (2º ano de curso)*</b><br>
+🌐<b>*Conhecimento em Python, HTML e CSS*</b>
+
+<b>_________________________________________________________________________________________________________________________________________________</b>
+
+📍<b>*Sorocaba-SP*</b>
+📞<b>*Contato via: leonardomelati1@gmail.com*</b>
