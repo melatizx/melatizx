@@ -6,7 +6,7 @@ Espero através daqui poder satisfazer a sua procura a um programador para reali
 <b>_________________________________________________________________________________________________________________________________________________</b>
 
 📖<b>*Cursando Desenvolvimento de Sistemas (2º ano de curso)*</b><br>
-🌐<b>*Conhecimento em Python, HTML, CSS e JS*</b>
+🌐<b>*Conhecimento em Front-End e Back-End*</b>
 
 <b>_________________________________________________________________________________________________________________________________________________</b>
 
