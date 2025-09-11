@@ -5,7 +5,7 @@ Sempre buscando evoluir em **boas práticas, código limpo e soluções escaláv
 
 ---
 
-## Tecnologias & ferramentas:
+## 🚀 Tecnologias & ferramentas:
 
 ### 💻 Linguagens
 <div display="flex" flex-direction="row">
