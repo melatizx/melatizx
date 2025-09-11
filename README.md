@@ -28,6 +28,6 @@ Sempre buscando evoluir em **boas práticas, código limpo e soluções escaláv
 <img src="badges/json.svg" alt="JSON" width="50">
 
 ## 🌐 Onde me encontrar
-- 💼 ![LinkedIn](https://www.linkedin.com/in/leonardo-melati-ambrosio-566884318/)
+- 💼 <a href="https://www.linkedin.com/in/leonardo-melati-ambrosio-566884318/">Linkedin</a>
 - 📧 leonardomelati1@gmail.com
 - 📍 Sorocaba-SP
