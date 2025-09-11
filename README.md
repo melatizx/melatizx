@@ -8,24 +8,32 @@ Sempre buscando evoluir em **boas práticas, código limpo e soluções escaláv
 ## Tecnologias & ferramentas:
 
 ### 💻 Linguagens
-<img src="badges/python.svg" alt="Python" width="50">
-<img src="badges/java.svg" alt="Java" width="50">
-<img src="badges/csharp.svg" alt="C#" width="50">
-<img src="badges/js.svg" alt="JavaScript" width="50">
+<div display="flex" flex-direction="row">
+    <img src="badges/python.svg" alt="Python" width="50">
+    <img src="badges/java.svg" alt="Java" width="50">
+    <img src="badges/csharp.svg" alt="C#" width="50">
+    <img src="badges/js.svg" alt="JavaScript" width="50">
+</div>
 
 ### ⚙️ Frameworks e Bibliotecas
-<img src="badges/django.svg" alt="Django" width="50">
-<img src="badges/bootstrap.svg" alt="BootStrap" width="50">
+<div>
+    <img src="badges/django.svg" alt="Django" width="50">
+    <img src="badges/bootstrap.svg" alt="BootStrap" width="50">
+</div>
 
 ### 🗄️ Bancos de Dados
-<img src="badges/sqlite.svg" alt="SQLite" width="50">
+<div>
+    <img src="badges/sqlite.svg" alt="SQLite" width="50">
+</div>
 
 ### 🛠️ Outras Ferramentas
-<img src="badges/git.svg" alt="Git" width="50">
-<img src="badges/github.svg" alt="GitHub" width="50">
-<img src="badges/html.svg" alt="HTML5" width="50">
-<img src="badges/css.svg" alt="CSS3" width="50">
-<img src="badges/json.svg" alt="JSON" width="50">
+<div>
+    <img src="badges/git.svg" alt="Git" width="50">
+    <img src="badges/github.svg" alt="GitHub" width="50">
+    <img src="badges/html.svg" alt="HTML5" width="50">
+    <img src="badges/css.svg" alt="CSS3" width="50">
+    <img src="badges/json.svg" alt="JSON" width="50">
+</div>
 
 ## 🌐 Onde me encontrar
 - 💼 <a href="https://www.linkedin.com/in/leonardo-melati-ambrosio-566884318/">Linkedin</a>
