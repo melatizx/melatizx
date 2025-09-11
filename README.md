@@ -23,7 +23,7 @@ Sempre buscando evoluir em **boas práticas, código limpo e soluções escaláv
 
 ### 🗄️ Bancos de Dados
 <div>
-    <img src="badges/sqlite.svg" alt="SQLite" width="100">
+    <img src="badges/sqlite.svg" alt="SQLite" width="50">
 </div>
 
 ### 🛠️ Outras Ferramentas
