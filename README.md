@@ -11,7 +11,6 @@ Sempre buscando evoluir em **boas práticas, código limpo e soluções escaláv
 <div display="flex" flex-direction="row">
     <img src="badges/python.svg" alt="Python" width="50">
     <img src="badges/java.svg" alt="Java" width="50">
-    <img src="badges/csharp.svg" alt="C#" width="50">
     <img src="badges/js.svg" alt="JavaScript" width="50">
 </div>
 
