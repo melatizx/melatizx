@@ -8,7 +8,7 @@ Sempre buscando evoluir em **boas práticas, código limpo e soluções escaláv
 ## 🚀 Tecnologias & ferramentas:
 
 ### 💻 Linguagens
-<div display="flex" flex-direction="row">
+<div>
     <img src="badges/python.svg" alt="Python" width="50">
     <img src="badges/java.svg" alt="Java" width="50">
     <img src="badges/js.svg" alt="JavaScript" width="50">
@@ -17,7 +17,7 @@ Sempre buscando evoluir em **boas práticas, código limpo e soluções escaláv
 ### ⚙️ Frameworks e Bibliotecas
 <div>
     <img src="badges/django.svg" alt="Django" width="50">
-    <img src="badges/bootstrap.svg" alt="BootStrap" width="50">
+    <img src="badges/bootstrap.png" alt="BootStrap" width="50">
 </div>
 
 ### 🗄️ Bancos de Dados
