@@ -1,40 +1,40 @@
-# Olá! Me chamo Leonardo Melati Ambrosio!!
+## Leonardo Melati Ambrosio  
+  
+Back-End Developer & Server Infrastructure  
+  
 
-**Desenvolvedor Full-Stack**! Focado na entrega de **qualidade** e **resolução de problemas**!!
-Sempre buscando evoluir em **boas práticas, código limpo e soluções escaláveis**
+<br/>  
 
----
+### Skills  
+<div align="center">  
+<a href="https://www.cprogramming.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="50" /></a>  
+<a href="https://www.cplusplus.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" /></a>  
+<a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" /></a>  
+<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
+<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
+</div>  
 
-## 🚀 Tecnologias & ferramentas:
 
-### 💻 Linguagens
-<div>
-    <img src="badges/python.svg" alt="Python" width="50">
-    <img src="badges/java.svg" alt="Java" width="50">
-    <img src="badges/js.svg" alt="JavaScript" width="50">
-</div>
 
-### ⚙️ Frameworks e Bibliotecas
-<div>
-    <img src="badges/django.svg" alt="Django" width="50">
-    <img src="badges/bootstrap.png" alt="BootStrap" width="50">
-</div>
+### Databases  
+<div align="center">  
+<a href="https://www.postgresql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>  
+<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
+</div>  
 
-### 🗄️ Bancos de Dados
-<div>
-    <img src="badges/sqlite.svg" alt="SQLite" width="50">
-</div>
 
-### 🛠️ Outras Ferramentas
-<div>
-    <img src="badges/git.svg" alt="Git" width="50">
-    <img src="badges/github.svg" alt="GitHub" width="50">
-    <img src="badges/html.svg" alt="HTML5" width="50">
-    <img src="badges/css.svg" alt="CSS3" width="50">
-    <img src="badges/json.svg" alt="JSON" width="50">
-</div>
 
-## 🌐 Onde me encontrar
-- 💼 <a href="https://www.linkedin.com/in/leonardo-melati-ambrosio-566884318/">Linkedin</a>
-- 📧 leonardomelati1@gmail.com
-- 📍 Sorocaba-SP
+### Outhers  
+<div align="center">  
+<a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" /></a>  
+<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
+<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
+</div>  
+
+<br/>  
+
+
+## Github Stats  
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=melatizx&hide_border=true&layout=compact" align="left" style="width: 100%" />  
+
