@@ -1,9 +1,7 @@
 ## Leonardo Melati Ambrosio  
   
 Back-End Developer & Server Infrastructure  
-  
-
-<br/>  
+   
 
 ### Skills  
 <div align="left">  
