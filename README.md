@@ -7,7 +7,10 @@ Back-End Developer & Server Infrastructure
 <div align="left">  
 <a href="https://www.cprogramming.com/" target="_blank"><img style="margin: 20px, filter: invert(1) grayscale(1) brightness(2);" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="50" /></a>  
 <a href="https://www.cplusplus.com/" target="_blank"><img style="margin: 20px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" /></a>  
-<a href="https://www.java.com/" target="_blank"><img style="margin: 20px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" /></a>  
+<a href="https://www.java.com/" target="_blank">
+    <img src="https://profilinator.rishav.dev/skills-assets/java-original.svg" height="50"
+    style="margin:20px; filter: invert(1) grayscale(1) brightness(2);" />
+  </a>
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 20px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
 <a href="https://www.python.org/" target="_blank"><img style="margin: 20px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
 </div>  
