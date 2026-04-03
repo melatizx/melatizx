@@ -34,5 +34,7 @@ Back-End Developer & Server Infrastructure
 
 
 ## Github Stats  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=melatizx&layout=compact&theme=dark&cache_seconds=1800)  
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=melatizx&show_icons=true&theme=dark&cache_seconds=1800)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=melatizx&layout=compact&theme=dark&cache_seconds=1800)
 
