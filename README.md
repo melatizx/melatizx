@@ -2,7 +2,6 @@
   
 ### Back-End Developer & Server Infrastructure Analyst
 
-<br>
 
 ### Programming
 Java | Python | C | JavaScript
@@ -19,4 +18,3 @@ Dell | Lenovo | HPE | IBM | Huawei
 ### Technologies
 VMware • Windows Server • Linux • Fibre Channel • iDRAC • XClarity • iLO • Hardware Diagnostics • Log Analysis
 
-<br>
