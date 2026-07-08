@@ -1,6 +1,6 @@
 ## Leonardo Melati Ambrosio  
   
-Back-End Developer & Server Infrastructure  
+Back-End Developer & Server Infrastructure Analyst
    
 
 ### Skills  
@@ -11,7 +11,14 @@ Back-End Developer & Server Infrastructure
 <a href="https://github.com/melatizx/python" target="_blank"><img style="margin: 20px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
 </div>  
 
-
+### Server Infrastructure
+<div align="left">
+<a href="https://www.dell.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/dell/dell-ar21.svg" alt="Dell Technologies" height="60"/></a>
+<a href="https://www.lenovo.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/lenovo/lenovo-ar21.svg" alt="Lenovo" height="60"/></a>
+<a href="https://www.hpe.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/hpe/hpe-ar21.svg" alt="HPE" height="60"/></a>
+<a href="https://www.huawei.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/huawei/huawei-ar21.svg" alt="Huawei" height="60"/></a>
+<a href="https://www.ibm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/ibm/ibm-ar21.svg" alt="IBM" height="60"/></a>
+</div>
 
 ### Databases  
 <div align="left">  
@@ -19,24 +26,6 @@ Back-End Developer & Server Infrastructure
 <a href="https://www.mysql.com/" target="_blank"><img style="margin: 20px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
 </div>  
 
-### Server Infrastructure
-<div align="left">
-<a href="https://www.dell.com/" target="_blank">
-  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dell.svg" alt="Dell Technologies" height="50"/>
-</a>
-<a href="https://www.lenovo.com/" target="_blank">
-  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lenovo.svg" alt="Lenovo" height="50"/>
-</a>
-<a href="https://www.hpe.com/" target="_blank">
-  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hewlettpackardenterprise.svg" alt="HPE" height="50"/>
-</a>
-<a href="https://e.huawei.com/" target="_blank">
-  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/huawei.svg" alt="Huawei" height="50"/>
-</a>
-<a href="https://www.ibm.com/" target="_blank">
-  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/ibm.svg" alt="IBM" height="50"/>
-</a>
-</div>
 
 ### Outhers  
 <div align="left">  
