@@ -1,19 +1,22 @@
 ## Leonardo Melati Ambrosio  
   
-Back-End Developer & Server Infrastructure Analyst
-   
+### Back-End Developer & Server Infrastructure Analyst
+
+<br>
+
 ### Programming
 Java | Python | C | JavaScript
 
 ### Databases
 PostgreSQL | MySQL
 
-🛠️ DevOps
+### DevOps
 Docker | Git | HTML | CSS
 
-🖥️ Server Infrastructure
+### Server Infrastructure
 Dell | Lenovo | HPE | IBM | Huawei
 
-⚙️ Technologies
-VMware • Windows Server • Linux • SAN • Fibre Channel • RAID • iDRAC • XClarity • iLO • Hardware Diagnostics • Firmware • Log Analysis
+### Technologies
+VMware • Windows Server • Linux • Fibre Channel • iDRAC • XClarity • iLO • Hardware Diagnostics • Log Analysis
 
+<br>
