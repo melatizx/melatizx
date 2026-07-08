@@ -19,7 +19,24 @@ Back-End Developer & Server Infrastructure
 <a href="https://www.mysql.com/" target="_blank"><img style="margin: 20px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
 </div>  
 
-
+### Server Infrastructure
+<div align="left">
+<a href="https://www.dell.com/" target="_blank">
+  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dell.svg" alt="Dell Technologies" height="50"/>
+</a>
+<a href="https://www.lenovo.com/" target="_blank">
+  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lenovo.svg" alt="Lenovo" height="50"/>
+</a>
+<a href="https://www.hpe.com/" target="_blank">
+  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hewlettpackardenterprise.svg" alt="HPE" height="50"/>
+</a>
+<a href="https://e.huawei.com/" target="_blank">
+  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/huawei.svg" alt="Huawei" height="50"/>
+</a>
+<a href="https://www.ibm.com/" target="_blank">
+  <img style="margin:20px" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/ibm.svg" alt="IBM" height="50"/>
+</a>
+</div>
 
 ### Outhers  
 <div align="left">  
