@@ -18,4 +18,3 @@ Dell | Lenovo | HPE | IBM | Huawei
 ### Skills
 VMware • Windows Server • Linux • Fibre Channel • iDRAC • XClarity • iLO • Hardware Diagnostics • Log Analysis
 
-<hr>
