@@ -3,18 +3,18 @@
 ### Back-End Developer & Server Infrastructure Analyst
 
 
-### Programming
+#### Programming
 Java | Python | C | JavaScript
 
-### Databases
+#### Databases
 PostgreSQL | MySQL
 
-### DevOps
+#### DevOps
 Docker | Git | HTML | CSS
 
-### Server Infrastructure
+#### Server Infrastructure
 Dell | Lenovo | HPE | IBM | Huawei
 
-### Skills
+#### Skills
 VMware • Windows Server • Linux • Fibre Channel • iDRAC • XClarity • iLO • Hardware Diagnostics • Log Analysis
 
