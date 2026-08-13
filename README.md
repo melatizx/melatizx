@@ -4,6 +4,7 @@
 
 #### Hi! My name is Leonardo Melati. I’m a Back-End Developer and Data Center Infrastructure Analyst, currently studying Systems Analysis and Development at Fatec Sorocaba (University of Technology). Programming in high-level languages (Java, Python, and JavaScript) and low-level languages (C), with experience in analyzing logs from servers, switches, storage systems, and libraries to assess system health and identify solutions to problems, as well as performing component testing and validation.
 
+
 <table>
 <tr>
 <td><b>Languages</b></td>
