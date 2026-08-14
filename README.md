@@ -154,17 +154,6 @@ I also have experience analyzing logs from **servers, switches, storage systems,
 
 ---
 
-## `> currently_learning`
-
-```text
-[████████████████░░░░]  Backend Development
-[███████████████░░░░░]  Infrastructure
-[██████████████░░░░░░]  Networking
-[████████████░░░░░░░░]  Software Development
-```
-
----
-
 ## `> contact`
 
 <table>
@@ -185,16 +174,6 @@ I also have experience analyzing logs from **servers, switches, storage systems,
 </table>
 
 ---
-
-<div align="center">
-
-```text
-────────────────────────────────────────────────────────────
-
-        BACKEND  ·  INFRASTRUCTURE  ·  DATA CENTER
-
-────────────────────────────────────────────────────────────
-```
 
 </div>
 ```
