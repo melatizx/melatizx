@@ -113,19 +113,6 @@ I also have experience analyzing logs from **servers, switches, storage systems,
 </tr>
 
 <tr>
-<td><b>Infrastructure Analysis</b></td>
-<td>
-
-![Log Analysis](https://img.shields.io/badge/Log_Analysis-0D1117?style=for-the-badge\&logoColor=3B9CFF)
-![Root Cause Analysis](https://img.shields.io/badge/Root_Cause_Analysis-0D1117?style=for-the-badge\&logoColor=3B9CFF)
-![Troubleshooting](https://img.shields.io/badge/Troubleshooting-0D1117?style=for-the-badge\&logoColor=3B9CFF)
-![Hardware Diagnostics](https://img.shields.io/badge/Hardware_Diagnostics-0D1117?style=for-the-badge\&logoColor=3B9CFF)
-![Component Validation](https://img.shields.io/badge/Component_Validation-0D1117?style=for-the-badge\&logoColor=3B9CFF)
-
-</td>
-</tr>
-
-<tr>
 <td><b>Tools</b></td>
 <td>
 
