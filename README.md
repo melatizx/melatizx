@@ -72,7 +72,7 @@ I also have experience analyzing logs from **servers, switches, storage systems,
 <td>
 
 ![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge\&logo=sqlite\&logoColor=3B9CFF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge\&logo=sqlite\&logoColor=3B9CFF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge\&logo=postresql\&logoColor=3B9CFF)
 ![Oracle](https://img.shields.io/badge/Oracle-0D1117?style=for-the-badge\&logo=oracle\&logoColor=F80000)
 
 </td>
