@@ -18,7 +18,7 @@
 
 <table>
 <tr>
-<td width="65%" valign="top">
+<td width="100%" valign="top">
 
 Hi! My name is **Leonardo Melati**.
 
@@ -33,28 +33,6 @@ What drives me is connecting software with infrastructure—automating processes
 I'm always looking for opportunities to learn new technologies, contribute to challenging projects, and collaborate with professionals who are passionate about innovation, reliability, and high-performance infrastructure.
 
 </td>
-
-<td width="35%" valign="top">
-
-```text
-┌─────────────────────────┐
-│       SYSTEM INFO       │
-├─────────────────────────┤
-│                         │
-│  Backend      ● Active  │
-│  Servers      ● Active  │
-│  Storage      ● Active  │
-│  Networking   ● Active  │
-│  Analysis     ● Active  │
-│                         │
-└─────────────────────────┘
-````
-
-</td>
-</tr>
-</table>
-
----
 
 ## `> skills`
 
