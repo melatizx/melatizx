@@ -22,11 +22,15 @@
 
 Hi! My name is **Leonardo Melati**.
 
-I’m a **Back-End Developer** and **Data Center Infrastructure Analyst**, currently studying **Systems Analysis and Development** at **Fatec Sorocaba — University of Technology**.
-
-I work with high-level programming languages such as **Java, Python, and JavaScript**, as well as the low-level language **C**.
-
-I also have experience analyzing logs from **servers, switches, storage systems, and libraries** to assess system health, investigate incidents, identify root causes, and perform hardware component testing and validation.
+I'm an **IT Infrastructure & Software Engineer** focused on enterprise Data Centers, backend development, and infrastructure automation.
+ 
+With hands-on experience supporting mission-critical environments, I work with enterprise servers, storage systems, SAN fabrics, and networking technologies from Dell Technologies, HPE, Lenovo, IBM, Huawei, Nutanix, Cisco UCS, and Brocade. My expertise includes hardware diagnostics, firmware analysis, logical log investigation, root cause analysis, and troubleshooting across Linux and Windows environments.
+ 
+Alongside my infrastructure experience, I'm pursuing a degree in Systems Analysis and Development, strengthening my software engineering skills. I develop solutions using Java, Python and JavaScript, with a strong interest in backend development, automation, APIs, and tools that improve operational efficiency.
+ 
+What drives me is connecting software with infrastructure—automating processes, simplifying operations, and solving complex technical challenges.
+ 
+I'm always looking for opportunities to learn new technologies, contribute to challenging projects, and collaborate with professionals who are passionate about innovation, reliability, and high-performance infrastructure.
 
 </td>
 
