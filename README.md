@@ -34,7 +34,7 @@ I'm always looking for opportunities to learn new technologies, contribute to ch
 
 </td>
 </tr>
-</table?
+</table>
 
 ---
 
