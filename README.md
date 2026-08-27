@@ -33,6 +33,8 @@ What drives me is connecting software with infrastructure—automating processes
 I'm always looking for opportunities to learn new technologies, contribute to challenging projects, and collaborate with professionals who are passionate about innovation, reliability, and high-performance infrastructure.
 
 </td>
+</tr>
+---
 
 ## `> skills`
 
