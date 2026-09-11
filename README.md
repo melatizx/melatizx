@@ -47,7 +47,7 @@ I'm always looking for opportunities to learn new technologies, contribute to ch
 ## `> contact`
 
 <table>
-<tr>
+<tr width="100%">
 <td><b>E-Mail</b></td>
 <td>leonardomelati1@gmail.com</td>
 </tr>
