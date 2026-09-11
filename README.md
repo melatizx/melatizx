@@ -5,9 +5,9 @@
 ### `Back-End Developer` · `Data Center Infrastructure Analyst`
 
 <p>
-  <img src="https://img.shields.io/badge/Backend-0D1117?style=for-the-badge&logo=serverfault&logoColor=3B9CFF">
-  <img src="https://img.shields.io/badge/Infrastructure-0D1117?style=for-the-badge&logo=databricks&logoColor=3B9CFF">
-  <img src="https://img.shields.io/badge/Data_Center-0D1117?style=for-the-badge&logo=serverless&logoColor=3B9CFF">
+  <img src="https://img.shields.io/badge/Backend-0D1117?style=for-the-badge&logo=serverfault&logoColor=1f6feb">
+  <img src="https://img.shields.io/badge/Infrastructure-0D1117?style=for-the-badge&logo=databricks&logoColor=1f6feb">
+  <img src="https://img.shields.io/badge/Data_Center-0D1117?style=for-the-badge&logo=serverless&logoColor=1f6feb">
 </p>
 
 </div>
@@ -52,11 +52,11 @@ Currently, I work at **OTG Support IT** in Sorocaba, São Paulo, Brazil, where I
   <a href="mailto:leonardomelati1@gmail.com">
     <img src="./assets/icons/envelope.svg" alt="Email"/>
   </a>
-   · 
+  <p>ㅤㅤ</p>
   <a href="https://linkedin.com/in/leonardomelatiambrosio" target="_blank">
     <img src="./assets/icons/linkedin.svg" alt="LinkedIn"/>
   </a>
-   · 
+  <p>ㅤㅤ</p>
   <a href="https://www.google.com/maps/search/Sorocaba,+SaoPaulo" target="_blank">
     <img src="./assets/icons/geo-alt-fill.svg" alt="Location"/>
   </a>
