@@ -50,16 +50,15 @@ Currently, I work at **OTG Support IT** in Sorocaba, São Paulo, Brazil, where I
 
 <p align="left">
   <a href="mailto:leonardomelati1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-1f6feb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="./assets/icons/envelope.svg" alt="Email"/>
   </a>
+  ·
   <a href="https://linkedin.com/in/leonardomelatiambrosio" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-1f6feb?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="./assets/icons/linkedin.svg" alt="LinkedIn"/>
   </a>
-  <!-- <a href="https://seuportfolio.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a> -->
+  ·
   <a href="https://www.google.com/maps/search/Sorocaba,+SaoPaulo" target="_blank">
-    <img src="https://img.shields.io/badge/Location-Sua_Cidade%2C_Estado-6e7681?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
+    <img src="./assets/icons/geo-alt-fill.svg" alt="Location"/>
   </a>
 </p>
 
