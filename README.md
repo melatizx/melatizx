@@ -46,7 +46,7 @@ Currently, I work at **OTG Support IT** in Sorocaba, São Paulo, Brazil, where I
 
 ---
 
-## `> gitHub_status`
+## `> github_status`
 
 ![status](./assets/status/github-status.svg)
 
