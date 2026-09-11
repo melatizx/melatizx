@@ -46,7 +46,13 @@ Currently, I work at **OTG Support IT** in Sorocaba, São Paulo, Brazil, where I
 
 ---
 
-## `> Contact`
+## `> gitHub status`
+
+![status](./assets/status/github-status.svg)
+
+---
+
+## `> contact`
 
 <p align="left">
   <a href="mailto:leonardomelati1@gmail.com">
