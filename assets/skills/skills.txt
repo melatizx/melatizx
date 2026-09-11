@@ -1,0 +1,49 @@
+root@melati:~# ./skills --list
+
+[2026-09-11 09:19:37] [INFO]  Loading skills...
+────────────────────────────────────────────────────────────────────────────────
+
+[2026-09-11 09:19:38] [ OK ]  < LANGUAGES >
+                              ├─ Java
+                              ├─ Python
+                              ├─ JavaScript
+                              └─ C
+
+[2026-09-11 09:19:38] [ OK ]  < DATABASES >
+                              ├─ SQL
+                              ├─ PostgreSQL
+                              └─ Oracle
+
+[2026-09-11 09:19:39] [ OK ]  < SERVER INFRASTRUCTURE >
+                              ├─ Dell
+                              ├─ Lenovo
+                              ├─ HPE
+                              ├─ IBM
+                              └─ Huawei
+
+[2026-09-11 09:19:39] [ OK ]  < OPERATING SYSTEMS >
+                              ├─ Linux
+                              └─ Windows Server
+
+[2026-09-11 09:19:40] [ OK ]  < MANAGEMENT >
+                              ├─ iDRAC      (Dell)
+                              ├─ XClarity   (Lenovo)
+                              ├─ iLO        (HPE)
+                              └─ iBMC       (Huawei)
+
+[2026-09-11 09:19:40] [ OK ]  < TOOLS >
+                              ├─ Docker
+                              ├─ Git
+                              ├─ HTML5
+                              └─ CSS3
+
+[2026-09-11 09:19:41] [ OK ]  < SOFT SKILLS >
+                              ├─ Problem Solving
+                              ├─ Analytical Thinking
+                              ├─ Technical Documentation
+                              ├─ Teamwork
+                              └─ Communication
+
+[2026-09-11 09:19:41] [INFO]  Total skills loaded: 27
+
+root@melati:~# _

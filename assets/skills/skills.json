@@ -1,0 +1,52 @@
+{
+  "hostname": "melati",
+  "user": "root",
+  "command": "./skills --list",
+  "theme": {
+    "background": "#0d1117",
+    "panel": "#0a0e14",
+    "header_bar": "#161b22",
+    "border": "#21262d",
+    "badge_bg": "#1c2128",
+    "text_default": "#c9d1d9",
+    "text_dim": "#6e7681",
+    "accent_blue": "#1f6feb",
+    "ok_green": "#3fb950",
+    "cursor": "#58a6ff"
+  },
+  "categories": [
+    {
+      "name": "Languages",
+      "items": ["Java", "Python", "JavaScript", "C"]
+    },
+    {
+      "name": "Databases",
+      "items": ["SQL", "PostgreSQL", "Oracle"]
+    },
+    {
+      "name": "Server Infrastructure",
+      "items": ["Dell", "Lenovo", "HPE", "IBM", "Huawei"]
+    },
+    {
+      "name": "Operating Systems",
+      "items": ["Linux", "Windows Server"]
+    },
+    {
+      "name": "Management",
+      "items": [
+        {"label": "iDRAC", "note": "Dell"},
+        {"label": "XClarity", "note": "Lenovo"},
+        {"label": "iLO", "note": "HPE"},
+        {"label": "iBMC", "note": "Huawei"}
+      ]
+    },
+    {
+      "name": "Tools",
+      "items": ["Docker", "Git", "HTML5", "CSS3"]
+    },
+    {
+      "name": "Soft Skills",
+      "items": ["Problem Solving", "Analytical Thinking", "Technical Documentation", "Teamwork", "Communication"]
+    }
+  ]
+}
