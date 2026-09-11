@@ -30,7 +30,6 @@ CHAR_WIDTH = 7.85
 PAD_X = 22
 PAD_TOP = 18
 PAD_BOTTOM = 22
-HEADER_HEIGHT = 42
 LINE_DELAY = 0.09
 LINE_DURATION = 0.30
 SEPARATOR_WIDTH = 80  # em caracteres
@@ -176,14 +175,12 @@ def render_svg(data: dict, animate: bool = True) -> str:
     width = int(PAD_X * 2 + max_len * CHAR_WIDTH)
     width = max(width, 520)
     content_height = len(rendered) * LINE_HEIGHT
-    height = HEADER_HEIGHT + PAD_TOP + content_height + PAD_BOTTOM
+    height = PAD_TOP + content_height + PAD_BOTTOM
 
     style = f"""
     <style>
       .term-bg {{ fill: {theme['background']}; }}
       .term-border {{ fill: none; stroke: {theme['border']}; stroke-width: 1; }}
-      .header-bar {{ fill: {theme['header_bar']}; }}
-      .badge {{ fill: {theme['badge_bg']}; }}
       text {{ font-family: {FONT_FAMILY}; font-size: {FONT_SIZE}px; }}
       .line {{ opacity: {0 if animate else 1}; }}
 """
@@ -203,27 +200,13 @@ def render_svg(data: dict, animate: bool = True) -> str:
     style += "    </style>\n"
 
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" '
         f'viewBox="0 0 {width} {height}" role="img" aria-label="Skills terminal log">',
         style,
-        f'<rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="10" class="term-bg term-border"/>',
-        f'<path d="M1,{HEADER_HEIGHT} L1,11 Q1,1 11,1 L{width-11},1 Q{width-1},1 {width-1},11 '
-        f'L{width-1},{HEADER_HEIGHT} Z" class="header-bar"/>',
-        f'<line x1="0" y1="{HEADER_HEIGHT}" x2="{width}" y2="{HEADER_HEIGHT}" stroke="{theme["border"]}" stroke-width="1"/>',
+        f'<rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" class="term-bg term-border"/>',
     ]
 
-    badge_x, badge_y, badge_w, badge_h = 16, 10, 22, 22
-    parts.append(f'<rect x="{badge_x}" y="{badge_y}" width="{badge_w}" height="{badge_h}" rx="5" class="badge"/>')
-    parts.append(
-        f'<text x="{badge_x + badge_w/2}" y="{badge_y + badge_h/2 + 4}" text-anchor="middle" '
-        f'fill="{theme["text_default"]}" font-weight="bold">&gt;</text>'
-    )
-    parts.append(
-        f'<text x="{badge_x + badge_w + 10}" y="{badge_y + badge_h/2 + 4}" '
-        f'fill="{theme["text_default"]}" font-weight="bold">skills</text>'
-    )
-
-    y = HEADER_HEIGHT + PAD_TOP + FONT_SIZE
+    y = PAD_TOP + FONT_SIZE
     delay = 0.0
     for (indent_chars, spans), e in zip(rendered, entries):
         x = PAD_X + indent_chars * CHAR_WIDTH

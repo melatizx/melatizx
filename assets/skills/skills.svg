@@ -1,48 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="672" height="1062" viewBox="0 0 672 1062" role="img" aria-label="Skills terminal log">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 672 1020" role="img" aria-label="Skills terminal log">
 
     <style>
       .term-bg { fill: #0d1117; }
       .term-border { fill: none; stroke: #21262d; stroke-width: 1; }
-      .header-bar { fill: #161b22; }
-      .badge { fill: #1c2128; }
       text { font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13px; }
-      .line { opacity: 1; }
+      .line { opacity: 0; }
+
+      @keyframes typeIn {
+        from { opacity: 0; transform: translateY(2px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .line { animation: typeIn 0.3s ease-out forwards; }
+      .cursor-block { animation: blink 1s step-end infinite; }
     </style>
 
-<rect x="0.5" y="0.5" width="671" height="1061" rx="10" class="term-bg term-border"/>
-<path d="M1,42 L1,11 Q1,1 11,1 L661,1 Q671,1 671,11 L671,42 Z" class="header-bar"/>
-<line x1="0" y1="42" x2="672" y2="42" stroke="#21262d" stroke-width="1"/>
-<rect x="16" y="10" width="22" height="22" rx="5" class="badge"/>
-<text x="27.0" y="25.0" text-anchor="middle" fill="#c9d1d9" font-weight="bold">&gt;</text>
-<text x="48" y="25.0" fill="#c9d1d9" font-weight="bold">skills</text>
-<g class="line">
-<text x="22.0" y="73">
+<rect x="0.5" y="0.5" width="671" height="1019" class="term-bg term-border"/>
+<g class="line" style="animation-delay:0.00s">
+<text x="22.0" y="31">
 <tspan fill="#1f6feb">root</tspan>
 <tspan fill="#c9d1d9">@melati:~# ./skills --list</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="93">
+<g class="line" style="animation-delay:0.09s">
+<text x="22.0" y="51">
 </text></g>
-<g class="line">
-<text x="22.0" y="113">
+<g class="line" style="animation-delay:0.09s">
+<text x="22.0" y="71">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:37</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:52</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#6e7681">[INFO]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
 <tspan fill="#c9d1d9">Loading skills...</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="133">
+<g class="line" style="animation-delay:0.18s">
+<text x="22.0" y="91">
 <tspan fill="#6e7681">────────────────────────────────────────────────────────────────────────────────</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="153">
+<g class="line" style="animation-delay:0.27s">
+<text x="22.0" y="111">
 </text></g>
-<g class="line">
-<text x="22.0" y="173">
+<g class="line" style="animation-delay:0.27s">
+<text x="22.0" y="131">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:38</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:53</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#3fb950">[ OK ]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
@@ -50,33 +54,33 @@
 <tspan fill="#1f6feb">LANGUAGES</tspan>
 <tspan fill="#6e7681"> &gt;</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="193">
+<g class="line" style="animation-delay:0.36s">
+<text x="257.5" y="151">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Java</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="213">
+<g class="line" style="animation-delay:0.45s">
+<text x="257.5" y="171">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Python</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="233">
+<g class="line" style="animation-delay:0.54s">
+<text x="257.5" y="191">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">JavaScript</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="253">
+<g class="line" style="animation-delay:0.63s">
+<text x="257.5" y="211">
 <tspan fill="#6e7681">└─ </tspan>
 <tspan fill="#c9d1d9">C</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="273">
+<g class="line" style="animation-delay:0.72s">
+<text x="22.0" y="231">
 </text></g>
-<g class="line">
-<text x="22.0" y="293">
+<g class="line" style="animation-delay:0.72s">
+<text x="22.0" y="251">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:38</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:53</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#3fb950">[ OK ]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
@@ -84,28 +88,28 @@
 <tspan fill="#1f6feb">DATABASES</tspan>
 <tspan fill="#6e7681"> &gt;</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="313">
+<g class="line" style="animation-delay:0.81s">
+<text x="257.5" y="271">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">SQL</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="333">
+<g class="line" style="animation-delay:0.90s">
+<text x="257.5" y="291">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">PostgreSQL</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="353">
+<g class="line" style="animation-delay:0.99s">
+<text x="257.5" y="311">
 <tspan fill="#6e7681">└─ </tspan>
 <tspan fill="#c9d1d9">Oracle</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="373">
+<g class="line" style="animation-delay:1.08s">
+<text x="22.0" y="331">
 </text></g>
-<g class="line">
-<text x="22.0" y="393">
+<g class="line" style="animation-delay:1.08s">
+<text x="22.0" y="351">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:39</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:54</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#3fb950">[ OK ]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
@@ -113,38 +117,38 @@
 <tspan fill="#1f6feb">SERVER INFRASTRUCTURE</tspan>
 <tspan fill="#6e7681"> &gt;</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="413">
+<g class="line" style="animation-delay:1.17s">
+<text x="257.5" y="371">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Dell</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="433">
+<g class="line" style="animation-delay:1.26s">
+<text x="257.5" y="391">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Lenovo</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="453">
+<g class="line" style="animation-delay:1.35s">
+<text x="257.5" y="411">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">HPE</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="473">
+<g class="line" style="animation-delay:1.44s">
+<text x="257.5" y="431">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">IBM</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="493">
+<g class="line" style="animation-delay:1.53s">
+<text x="257.5" y="451">
 <tspan fill="#6e7681">└─ </tspan>
 <tspan fill="#c9d1d9">Huawei</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="513">
+<g class="line" style="animation-delay:1.62s">
+<text x="22.0" y="471">
 </text></g>
-<g class="line">
-<text x="22.0" y="533">
+<g class="line" style="animation-delay:1.62s">
+<text x="22.0" y="491">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:39</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:54</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#3fb950">[ OK ]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
@@ -152,23 +156,23 @@
 <tspan fill="#1f6feb">OPERATING SYSTEMS</tspan>
 <tspan fill="#6e7681"> &gt;</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="553">
+<g class="line" style="animation-delay:1.71s">
+<text x="257.5" y="511">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Linux</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="573">
+<g class="line" style="animation-delay:1.80s">
+<text x="257.5" y="531">
 <tspan fill="#6e7681">└─ </tspan>
 <tspan fill="#c9d1d9">Windows Server</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="593">
+<g class="line" style="animation-delay:1.89s">
+<text x="22.0" y="551">
 </text></g>
-<g class="line">
-<text x="22.0" y="613">
+<g class="line" style="animation-delay:1.89s">
+<text x="22.0" y="571">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:40</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:55</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#3fb950">[ OK ]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
@@ -176,37 +180,37 @@
 <tspan fill="#1f6feb">MANAGEMENT</tspan>
 <tspan fill="#6e7681"> &gt;</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="633">
+<g class="line" style="animation-delay:1.98s">
+<text x="257.5" y="591">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">iDRAC</tspan>
 <tspan fill="#6e7681">      (Dell)</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="653">
+<g class="line" style="animation-delay:2.07s">
+<text x="257.5" y="611">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">XClarity</tspan>
 <tspan fill="#6e7681">   (Lenovo)</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="673">
+<g class="line" style="animation-delay:2.16s">
+<text x="257.5" y="631">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">iLO</tspan>
 <tspan fill="#6e7681">        (HPE)</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="693">
+<g class="line" style="animation-delay:2.25s">
+<text x="257.5" y="651">
 <tspan fill="#6e7681">└─ </tspan>
 <tspan fill="#c9d1d9">iBMC</tspan>
 <tspan fill="#6e7681">       (Huawei)</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="713">
+<g class="line" style="animation-delay:2.34s">
+<text x="22.0" y="671">
 </text></g>
-<g class="line">
-<text x="22.0" y="733">
+<g class="line" style="animation-delay:2.34s">
+<text x="22.0" y="691">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:40</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:55</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#3fb950">[ OK ]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
@@ -214,33 +218,33 @@
 <tspan fill="#1f6feb">TOOLS</tspan>
 <tspan fill="#6e7681"> &gt;</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="753">
+<g class="line" style="animation-delay:2.43s">
+<text x="257.5" y="711">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Docker</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="773">
+<g class="line" style="animation-delay:2.52s">
+<text x="257.5" y="731">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Git</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="793">
+<g class="line" style="animation-delay:2.61s">
+<text x="257.5" y="751">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">HTML5</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="813">
+<g class="line" style="animation-delay:2.70s">
+<text x="257.5" y="771">
 <tspan fill="#6e7681">└─ </tspan>
 <tspan fill="#c9d1d9">CSS3</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="833">
+<g class="line" style="animation-delay:2.79s">
+<text x="22.0" y="791">
 </text></g>
-<g class="line">
-<text x="22.0" y="853">
+<g class="line" style="animation-delay:2.79s">
+<text x="22.0" y="811">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:41</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:56</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#3fb950">[ OK ]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
@@ -248,48 +252,48 @@
 <tspan fill="#1f6feb">SOFT SKILLS</tspan>
 <tspan fill="#6e7681"> &gt;</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="873">
+<g class="line" style="animation-delay:2.88s">
+<text x="257.5" y="831">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Problem Solving</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="893">
+<g class="line" style="animation-delay:2.97s">
+<text x="257.5" y="851">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Analytical Thinking</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="913">
+<g class="line" style="animation-delay:3.06s">
+<text x="257.5" y="871">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Technical Documentation</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="933">
+<g class="line" style="animation-delay:3.15s">
+<text x="257.5" y="891">
 <tspan fill="#6e7681">├─ </tspan>
 <tspan fill="#c9d1d9">Teamwork</tspan>
 </text></g>
-<g class="line">
-<text x="257.5" y="953">
+<g class="line" style="animation-delay:3.24s">
+<text x="257.5" y="911">
 <tspan fill="#6e7681">└─ </tspan>
 <tspan fill="#c9d1d9">Communication</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="973">
+<g class="line" style="animation-delay:3.33s">
+<text x="22.0" y="931">
 </text></g>
-<g class="line">
-<text x="22.0" y="993">
+<g class="line" style="animation-delay:3.33s">
+<text x="22.0" y="951">
 <tspan fill="#6e7681">[</tspan>
-<tspan fill="#1f6feb">2026-09-11 09:19:41</tspan>
+<tspan fill="#1f6feb">2026-09-11 09:32:56</tspan>
 <tspan fill="#6e7681">] </tspan>
 <tspan fill="#6e7681">[INFO]</tspan>
 <tspan fill="#c9d1d9">  </tspan>
 <tspan fill="#c9d1d9">Total skills loaded: 27</tspan>
 </text></g>
-<g class="line">
-<text x="22.0" y="1013">
+<g class="line" style="animation-delay:3.42s">
+<text x="22.0" y="971">
 </text></g>
-<g class="line">
-<text x="22.0" y="1033">
+<g class="line" style="animation-delay:3.42s">
+<text x="22.0" y="991">
 <tspan fill="#1f6feb">root</tspan>
 <tspan fill="#c9d1d9">@melati:~# </tspan>
 <tspan fill="#58a6ff" class="cursor-block">_</tspan>
