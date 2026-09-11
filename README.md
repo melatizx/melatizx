@@ -59,7 +59,7 @@ Currently, I work at **OTG Support IT** in Sorocaba, São Paulo, Brazil, where I
     <img src="https://img.shields.io/badge/Portfolio-3fb950?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
   </a> -->
   <a href="https://www.google.com/maps/search/Sorocaba,+SaoPaulo" target="_blank">
-    <img src="https://img.shields.io/badge/Location-Sua_Cidade%2C_Estado-6e7681?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
+    <img src="https://img.shields.io/badge/Location-Sorocaba%2C_SP-6e7681?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location"/>
   </a>
 </p>
 
