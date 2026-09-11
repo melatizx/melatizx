@@ -1,49 +1,59 @@
 root@melati:~# ./skills --list
 
-[2026-09-11 09:32:52] [INFO]  Loading skills...
+[2026-09-11 10:04:24] [INFO]  Loading skills...
 ────────────────────────────────────────────────────────────────────────────────
 
-[2026-09-11 09:32:53] [ OK ]  < LANGUAGES >
+[2026-09-11 10:04:25] [ OK ]  < LANGUAGES >
                               ├─ Java
                               ├─ Python
                               ├─ JavaScript
                               └─ C
 
-[2026-09-11 09:32:53] [ OK ]  < DATABASES >
+[2026-09-11 10:04:25] [ OK ]  < DATABASES >
                               ├─ SQL
                               ├─ PostgreSQL
                               └─ Oracle
 
-[2026-09-11 09:32:54] [ OK ]  < SERVER INFRASTRUCTURE >
+[2026-09-11 10:04:26] [ OK ]  < SERVER INFRASTRUCTURE >
                               ├─ Dell
                               ├─ Lenovo
                               ├─ HPE
                               ├─ IBM
                               └─ Huawei
 
-[2026-09-11 09:32:54] [ OK ]  < OPERATING SYSTEMS >
+[2026-09-11 10:04:26] [ OK ]  < OPERATING SYSTEMS >
                               ├─ Linux
                               └─ Windows Server
 
-[2026-09-11 09:32:55] [ OK ]  < MANAGEMENT >
+[2026-09-11 10:04:27] [ OK ]  < MANAGEMENT >
                               ├─ iDRAC      (Dell)
                               ├─ XClarity   (Lenovo)
                               ├─ iLO        (HPE)
                               └─ iBMC       (Huawei)
 
-[2026-09-11 09:32:55] [ OK ]  < TOOLS >
+[2026-09-11 10:04:27] [ OK ]  < TOOLS >
                               ├─ Docker
                               ├─ Git
                               ├─ HTML5
                               └─ CSS3
 
-[2026-09-11 09:32:56] [ OK ]  < SOFT SKILLS >
+[2026-09-11 10:04:28] [ OK ]  < FRAMEWORKS >
+                              ├─ Spring Boot
+                              ├─ Django
+                              └─ GetBootStrap
+
+[2026-09-11 10:04:28] [ OK ]  < AI & CLOUD >
+                              ├─ Anthropic Claude
+                              ├─ Microsoft Azure
+                              └─ Google Cloud
+
+[2026-09-11 10:04:29] [ OK ]  < SOFT SKILLS >
                               ├─ Problem Solving
                               ├─ Analytical Thinking
                               ├─ Technical Documentation
                               ├─ Teamwork
                               └─ Communication
 
-[2026-09-11 09:32:56] [INFO]  Total skills loaded: 27
+[2026-09-11 10:04:29] [INFO]  Total skills loaded: 33
 
 root@melati:~# _

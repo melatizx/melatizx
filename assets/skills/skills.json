@@ -45,6 +45,14 @@
       "items": ["Docker", "Git", "HTML5", "CSS3"]
     },
     {
+      "name": "Frameworks",
+      "items": ["Spring Boot", "Django", "GetBootStrap"]
+    },
+    {
+      "name": "AI & Cloud",
+      "items": ["Anthropic Claude", "Microsoft Azure", "Google Cloud"]
+    },
+    {
       "name": "Soft Skills",
       "items": ["Problem Solving", "Analytical Thinking", "Technical Documentation", "Teamwork", "Communication"]
     }
