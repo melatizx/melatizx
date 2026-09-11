@@ -51,14 +51,17 @@ Currently, I work at **OTG Support IT** in Sorocaba, São Paulo, Brazil, where I
 <p align="left">
   <a href="mailto:leonardomelati1@gmail.com">
     <img src="./assets/icons/envelope.svg" alt="Email"/>
+    E-Mail
   </a>
   ㅤㅤ
   <a href="https://linkedin.com/in/leonardomelatiambrosio" target="_blank">
     <img src="./assets/icons/linkedin.svg" alt="LinkedIn"/>
+    Linkedin
   </a>
   ㅤㅤ
   <a href="https://www.google.com/maps/search/Sorocaba,+SaoPaulo" target="_blank">
     <img src="./assets/icons/geo-alt-fill.svg" alt="Location"/>
+    Location
   </a>
 </p>
 
