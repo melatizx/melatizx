@@ -1,0 +1,37 @@
+name: Update GitHub status
+
+on:
+  schedule:
+    # 03:00 UTC = 00:00 no horário de Brasília (BRT, UTC-3, sem horário de verão)
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}   # permite rodar manualmente pela aba "Actions" no GitHub
+
+permissions:
+  contents: write   # necessário para o workflow poder fazer commit/push
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Gerar github-status.svg
+        working-directory: assets/status
+        run: |
+          python3 generate-github-status.py \
+            --user "${{ github.repository_owner }}" \
+            --token "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Commit e push (se algo mudou)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/status/github-status.svg assets/status/github-status.txt
+          git diff --cached --quiet && echo "Nada mudou, pulando commit." || git commit -m "chore: atualiza github-status [skip ci]"
+          git push
