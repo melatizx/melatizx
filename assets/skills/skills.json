@@ -26,14 +26,19 @@
     {
       "name": "Server Infrastructure",
       "items": [
-        {"group": "Dell", "items": ["PowerEdge", "EMC PowerStore", "EMC Unity", "EMC PowerVault", "EMC Isilon", "EMC VNX", "EMC DataDomain", "EqualLogic", "Compellent", "VRTX", "VxRail", "PowerSwitch", "Networking", "PowerConnect", "Switch C", "Library TL"]},
-        {"group": "HPE", "items": ["ProLiant", "Storage MSA", "Synergy", "Storage 3Par", "HPE Switch", "Library MSL"]},
-        {"group": "IBM", "items": ["PowerSystems", "Storage", "Storage V", "FlashSystems", "Library TS"]},
-        {"group": "Lenovo", "items": ["ThinkServer", "ThinkSystem Storage", "ThinkSystem Switch"]},
-        {"group": "Huawei", "items": ["Server RH", "OceanStor", "Switch"]},
-        {"group": "Cisco", "items": ["UCS", "Switch"]},
-        {"group": "SUN", "items": ["Sparc", "NETR"]},
-        {"group": "Others", "items": ["Asustor NAS", "Synology NAS", "Symantec NetBackup", "NetApp Storage", "Arista Switch", "Brocade Connectrix"]}
+        {"label": "Dell", "note": "Servers; Storages; Networkings; Appliences; Lybrarys"},
+        {"label": "HPE", "note": "Servers; Storages; Networkings; Lybrarys"},
+        {"label": "IBM", "note": "Servers; Storages; Networkings; Lybrarys"},
+        {"label": "Lenovo", "note": "Servers; Storages; Networkings"},
+        {"label": "Huawei", "note": "Servers; Storages; Networkings"},
+        {"label": "Cisco", "note": "Servers; Networkings"},
+        {"label": "SUN", "note": "Servers"},
+        {"label": "Asustor", "note": "NAS"},
+        {"label": "Synology", "note": "NAS"},
+        {"label": "Symantec", "note": "Servers"},
+        {"label": "NetApp", "note": "Servers"},
+        {"label": "Arista", "note": "Networkings"},
+        {"label": "Brocade", "note": "Networkings"}
       ]
     },
     {
@@ -51,7 +56,7 @@
     },
     {
       "name": "Tools",
-      "items": ["Docker", "Git", "HTML5", "CSS3"]
+      "items": ["Docker", "Git", "GitHub", "HTML5", "CSS3", "JSON"]
     },
     {
       "name": "Frameworks",

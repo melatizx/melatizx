@@ -1,105 +1,69 @@
 root@melati:~# ./skills --list
 
-[2026-09-14 11:54:00] [INFO]  Loading skills...
+[2026-09-14 12:48:03] [INFO]  Loading skills...
 ────────────────────────────────────────────────────────────────────────────────
 
-[2026-09-14 11:54:01] [ OK ]  < LANGUAGES >
+[2026-09-14 12:48:04] [ OK ]  < LANGUAGES >
                               ├─ Java
                               ├─ Python
                               ├─ JavaScript
                               └─ C
 
-[2026-09-14 11:54:01] [ OK ]  < DATABASES >
+[2026-09-14 12:48:04] [ OK ]  < DATABASES >
                               ├─ SQL
                               ├─ PostgreSQL
                               └─ Oracle
 
-[2026-09-14 11:54:02] [ OK ]  < SERVER INFRASTRUCTURE >
-                              ├─ Dell
-                              │  ├─ PowerEdge
-                              │  ├─ EMC PowerStore
-                              │  ├─ EMC Unity
-                              │  ├─ EMC PowerVault
-                              │  ├─ EMC Isilon
-                              │  ├─ EMC VNX
-                              │  ├─ EMC DataDomain
-                              │  ├─ EqualLogic
-                              │  ├─ Compellent
-                              │  ├─ VRTX
-                              │  ├─ VxRail
-                              │  ├─ PowerSwitch
-                              │  ├─ Networking
-                              │  ├─ PowerConnect
-                              │  ├─ Switch C
-                              │  └─ Library TL
-                              ├─ HPE
-                              │  ├─ ProLiant
-                              │  ├─ Storage MSA
-                              │  ├─ Synergy
-                              │  ├─ Storage 3Par
-                              │  ├─ HPE Switch
-                              │  └─ Library MSL
-                              ├─ IBM
-                              │  ├─ PowerSystems
-                              │  ├─ Storage
-                              │  ├─ Storage V
-                              │  ├─ FlashSystems
-                              │  └─ Library TS
-                              ├─ Lenovo
-                              │  ├─ ThinkServer
-                              │  ├─ ThinkSystem Storage
-                              │  └─ ThinkSystem Switch
-                              ├─ Huawei
-                              │  ├─ Server RH
-                              │  ├─ OceanStor
-                              │  └─ Switch
-                              ├─ Cisco
-                              │  ├─ UCS
-                              │  └─ Switch
-                              ├─ SUN
-                              │  ├─ Sparc
-                              │  └─ NETR
-                              └─ Others
-                                 ├─ Asustor NAS
-                                 ├─ Synology NAS
-                                 ├─ Symantec NetBackup
-                                 ├─ NetApp Storage
-                                 ├─ Arista Switch
-                                 └─ Brocade Connectrix
+[2026-09-14 12:48:05] [ OK ]  < SERVER INFRASTRUCTURE >
+                              ├─ Dell       (Servers; Storages; Networkings; Appliences; Lybrarys)
+                              ├─ HPE        (Servers; Storages; Networkings; Lybrarys)
+                              ├─ IBM        (Servers; Storages; Networkings; Lybrarys)
+                              ├─ Lenovo     (Servers; Storages; Networkings)
+                              ├─ Huawei     (Servers; Storages; Networkings)
+                              ├─ Cisco      (Servers; Networkings)
+                              ├─ SUN        (Servers)
+                              ├─ Asustor    (NAS)
+                              ├─ Synology   (NAS)
+                              ├─ Symantec   (Servers)
+                              ├─ NetApp     (Servers)
+                              ├─ Arista     (Networkings)
+                              └─ Brocade    (Networkings)
 
-[2026-09-14 11:54:02] [ OK ]  < OPERATING SYSTEMS >
+[2026-09-14 12:48:05] [ OK ]  < OPERATING SYSTEMS >
                               ├─ Linux
                               └─ Windows Server
 
-[2026-09-14 11:54:03] [ OK ]  < MANAGEMENT >
+[2026-09-14 12:48:06] [ OK ]  < MANAGEMENT >
                               ├─ iDRAC      (Dell)
                               ├─ XClarity   (Lenovo)
                               ├─ iLO        (HPE)
                               └─ iBMC       (Huawei)
 
-[2026-09-14 11:54:03] [ OK ]  < TOOLS >
+[2026-09-14 12:48:06] [ OK ]  < TOOLS >
                               ├─ Docker
                               ├─ Git
+                              ├─ GitHub
                               ├─ HTML5
-                              └─ CSS3
+                              ├─ CSS3
+                              └─ JSON
 
-[2026-09-14 11:54:04] [ OK ]  < FRAMEWORKS >
+[2026-09-14 12:48:07] [ OK ]  < FRAMEWORKS >
                               ├─ Spring Boot
                               ├─ Django
                               └─ GetBootStrap
 
-[2026-09-14 11:54:04] [ OK ]  < AI & CLOUD >
+[2026-09-14 12:48:07] [ OK ]  < AI & CLOUD >
                               ├─ Anthropic Claude
                               ├─ Microsoft Azure
                               └─ Google Cloud
 
-[2026-09-14 11:54:05] [ OK ]  < SOFT SKILLS >
+[2026-09-14 12:48:08] [ OK ]  < SOFT SKILLS >
                               ├─ Problem Solving
                               ├─ Analytical Thinking
                               ├─ Technical Documentation
                               ├─ Teamwork
                               └─ Communication
 
-[2026-09-14 11:54:05] [INFO]  Total skills loaded: 71
+[2026-09-14 12:48:08] [INFO]  Total skills loaded: 43
 
 root@melati:~# _
