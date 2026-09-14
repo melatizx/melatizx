@@ -42,10 +42,54 @@ def esc(s: str) -> str:
 
 
 def normalize_item(item):
-    """Aceita string simples ou {"label": ..., "note": ...}."""
+    """Aceita:
+    - string simples                         -> item folha
+    - {"label": ..., "note": ...}             -> item folha com nota entre parênteses
+    - {"group": ..., "items": [...]}          -> subcategoria (recursiva)
+    """
+    if isinstance(item, dict) and "group" in item:
+        return {"type": "group", "name": item["group"], "items": item.get("items", [])}
     if isinstance(item, dict):
-        return item.get("label", ""), item.get("note")
-    return item, None
+        return {"type": "leaf", "label": item.get("label", ""), "note": item.get("note")}
+    return {"type": "leaf", "label": item, "note": None}
+
+
+def flatten_items(items, prefix=""):
+    """Percorre a lista de itens (com possíveis subgrupos aninhados) e gera
+    as linhas da árvore no estilo do comando `tree`: ├─ / └─ / │  ."""
+    lines = []
+    nodes = [normalize_item(it) for it in items]
+
+    leaves_with_note = [n for n in nodes if n["type"] == "leaf" and n["note"]]
+    max_label = max((len(n["label"]) for n in leaves_with_note), default=0)
+
+    for idx, node in enumerate(nodes):
+        is_last = idx == len(nodes) - 1
+        branch = "└─ " if is_last else "├─ "
+
+        if node["type"] == "group":
+            lines.append({"kind": "item", "prefix": prefix + branch, "label": node["name"], "note": None, "is_group": True})
+            child_prefix = prefix + ("   " if is_last else "│  ")
+            lines.extend(flatten_items(node["items"], child_prefix))
+        else:
+            note_text = None
+            if node["note"]:
+                pad = " " * max(2, (max_label - len(node["label"])) + 3)
+                note_text = f"{pad}({node['note']})"
+            lines.append({"kind": "item", "prefix": prefix + branch, "label": node["label"], "note": note_text})
+
+    return lines
+
+
+def count_leaves(items):
+    total = 0
+    for it in items:
+        node = normalize_item(it)
+        if node["type"] == "group":
+            total += count_leaves(node["items"])
+        else:
+            total += 1
+    return total
 
 
 def build_entries(data: dict):
@@ -71,16 +115,8 @@ def build_entries(data: dict):
         last_ts = ts
         entries.append({"kind": "category", "ts": ts, "name": cat["name"]})
 
-        items = [normalize_item(it) for it in cat["items"]]
-        max_label = max((len(lbl) for lbl, note in items if note), default=0)
-        for idx, (label, note) in enumerate(items):
-            total_items += 1
-            branch = "└─" if idx == len(items) - 1 else "├─"
-            note_text = None
-            if note:
-                pad = " " * max(2, (max_label - len(label)) + 3)
-                note_text = f"{pad}({note})"
-            entries.append({"kind": "item", "branch": branch, "label": label, "note": note_text})
+        entries.extend(flatten_items(cat["items"]))
+        total_items += count_leaves(cat["items"])
         entries.append({"kind": "blank"})
 
     entries.append({"kind": "info", "ts": last_ts, "msg": f"Total skills loaded: {total_items}"})
@@ -119,7 +155,7 @@ def render_plain_text(data: dict) -> str:
             lines.append(f'[{fmt_ts(e["ts"])}] [ OK ]  < {e["name"].upper()} >')
         elif kind == "item":
             note = e["note"] or ""
-            lines.append(" " * tree_indent + f'{e["branch"]} {e["label"]}{note}')
+            lines.append(" " * tree_indent + f'{e["prefix"]}{e["label"]}{note}')
 
     return "\n".join(lines)
 
@@ -137,27 +173,27 @@ def line_spans(entry, theme, tree_indent_chars):
 
     kind = entry["kind"]
     if kind == "prompt":
-        return 0, [(entry["user"], blue), (f'@{entry["hostname"]}:~# {entry["command"]}', default)]
+        return 0, [(entry["user"], blue), (f'@{entry["hostname"]}:~# {entry["command"]}', default)], False
     if kind == "prompt_end":
-        return 0, [(entry["user"], blue), (f'@{entry["hostname"]}:~# ', default), ("_", theme["cursor"])]
+        return 0, [(entry["user"], blue), (f'@{entry["hostname"]}:~# ', default), ("_", theme["cursor"])], False
     if kind == "blank":
-        return 0, [("", default)]
+        return 0, [("", default)], False
     if kind == "separator":
-        return 0, [("─" * SEPARATOR_WIDTH, dim)]
+        return 0, [("─" * SEPARATOR_WIDTH, dim)], False
     if kind == "info":
-        return 0, [("[", dim), (fmt_ts(entry["ts"]), blue), ("] ", dim), ("[INFO]", dim), ("  ", default), (entry["msg"], default)]
+        return 0, [("[", dim), (fmt_ts(entry["ts"]), blue), ("] ", dim), ("[INFO]", dim), ("  ", default), (entry["msg"], default)], False
     if kind == "category":
         return 0, [
             ("[", dim), (fmt_ts(entry["ts"]), blue), ("] ", dim),
             ("[ OK ]", green), ("  ", default),
             ("< ", dim), (entry["name"].upper(), blue), (" >", dim),
-        ]
+        ], False
     if kind == "item":
-        spans = [(f'{entry["branch"]} ', dim), (entry["label"], default)]
+        spans = [(entry["prefix"], dim), (entry["label"], default)]
         if entry["note"]:
             spans.append((entry["note"], dim))
-        return tree_indent_chars, spans
-    return 0, [("", default)]
+        return tree_indent_chars, spans, entry.get("is_group", False)
+    return 0, [("", default)], False
 
 
 def spans_length(indent_chars, spans):
@@ -170,7 +206,7 @@ def render_svg(data: dict, animate: bool = True) -> str:
     tree_indent_chars = len(f"[{TS_SAMPLE}] [ OK ]  ")
 
     rendered = [line_spans(e, theme, tree_indent_chars) for e in entries]
-    max_len = max(spans_length(ind, spans) for ind, spans in rendered)
+    max_len = max(spans_length(ind, spans) for ind, spans, _ in rendered)
 
     width = int(PAD_X * 2 + max_len * CHAR_WIDTH)
     width = max(width, 520)
@@ -200,7 +236,7 @@ def render_svg(data: dict, animate: bool = True) -> str:
     style += "    </style>\n"
 
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" '
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="95%" '
         f'viewBox="0 0 {width} {height}" role="img" aria-label="Skills terminal log">',
         style,
         f'<rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" class="term-bg term-border"/>',
@@ -208,7 +244,7 @@ def render_svg(data: dict, animate: bool = True) -> str:
 
     y = PAD_TOP + FONT_SIZE
     delay = 0.0
-    for (indent_chars, spans), e in zip(rendered, entries):
+    for (indent_chars, spans, is_group), e in zip(rendered, entries):
         x = PAD_X + indent_chars * CHAR_WIDTH
         attrs = f' style="animation-delay:{delay:.2f}s"' if animate else ""
         parts.append(f'<g class="line"{attrs}>')
@@ -217,7 +253,8 @@ def render_svg(data: dict, animate: bool = True) -> str:
             if txt == "":
                 continue
             cls = ' class="cursor-block"' if e["kind"] == "prompt_end" and txt == "_" else ""
-            parts.append(f'<tspan fill="{color}"{cls}>{esc(txt)}</tspan>')
+            weight = ' font-weight="bold"' if is_group and color == theme["text_default"] else ""
+            parts.append(f'<tspan fill="{color}"{cls}{weight}>{esc(txt)}</tspan>')
         parts.append("</text></g>")
         y += LINE_HEIGHT
         if e["kind"] != "blank":

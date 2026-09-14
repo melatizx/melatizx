@@ -25,7 +25,16 @@
     },
     {
       "name": "Server Infrastructure",
-      "items": ["Dell", "Lenovo", "HPE", "IBM", "Huawei"]
+      "items": [
+        {"group": "Dell", "items": ["PowerEdge", "EMC PowerStore", "EMC Unity", "EMC PowerVault", "EMC Isilon", "EMC VNX", "EMC DataDomain", "EqualLogic", "Compellent", "VRTX", "VxRail", "PowerSwitch", "Networking", "PowerConnect", "Switch C", "Library TL"]},
+        {"group": "HPE", "items": ["ProLiant", "Storage MSA", "Synergy", "Storage 3Par", "HPE Switch", "Library MSL"]},
+        {"group": "IBM", "items": ["PowerSystems", "Storage", "Storage V", "FlashSystems", "Library TS"]},
+        {"group": "Lenovo", "items": ["ThinkServer", "ThinkSystem Storage", "ThinkSystem Switch"]},
+        {"group": "Huawei", "items": ["Server RH", "OceanStor", "Switch"]},
+        {"group": "Cisco", "items": ["UCS", "Switch"]},
+        {"group": "SUN", "items": ["Sparc", "NETR"]},
+        {"group": "Others", "items": ["Asustor NAS", "Synology NAS", "Symantec NetBackup", "NetApp Storage", "Arista Switch", "Brocade Connectrix"]}
+      ]
     },
     {
       "name": "Operating Systems",
